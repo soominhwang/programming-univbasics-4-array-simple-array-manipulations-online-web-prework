@@ -38,6 +38,8 @@ def using_flatten(instruments)
   instruments.flatten
 end
 
-def
+def 
 
-end 
+end
+
+end
