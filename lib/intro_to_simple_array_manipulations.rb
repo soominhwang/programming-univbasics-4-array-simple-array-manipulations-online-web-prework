@@ -41,5 +41,3 @@ end
 def using_delete(instructors, "Steven")
   instructors.delete
 end
-
-
