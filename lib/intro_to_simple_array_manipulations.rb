@@ -31,7 +31,7 @@ def using_insert(list_of_programming_languages, another_language)
 end
 
 def using_uniq(haircuts)
-
+  haircuts.uniq
 end
   it "takes in an argument of an array and uses the uniq method to remove any duplicate items" do
     haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
