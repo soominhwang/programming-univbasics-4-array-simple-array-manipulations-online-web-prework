@@ -35,7 +35,7 @@ def using_uniq(haircuts)
 end
 
 def using_flatten(instruments)
-
+  instruments.flatten
 end
 
   it "takes in an argument of an array that contains other arrays and uses the flatten method to return an array of strings" do
