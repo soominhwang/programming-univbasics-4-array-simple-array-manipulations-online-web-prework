@@ -38,8 +38,6 @@ def using_flatten(instruments)
   instruments.flatten
 end
 
-def 
-
-end
-
+def using_delete (instructors)
+  instructors.delete
 end
