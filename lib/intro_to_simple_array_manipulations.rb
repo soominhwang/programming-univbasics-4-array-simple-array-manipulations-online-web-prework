@@ -33,9 +33,3 @@ end
 def using_uniq(haircuts)
   haircuts.uniq
 end
-  it "takes in an argument of an array and uses the uniq method to remove any duplicate items" do
-    haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
-    new_array = using_uniq(haircuts)
-    expect(new_array).to eq(["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler"])
-  end
-end
